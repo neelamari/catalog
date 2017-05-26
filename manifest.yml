@@ -1,0 +1,7 @@
+applications:
+- name: Catalog
+  memory: 1024M
+  host: Catalog-${random-word}
+  path: target/Catalog-0.0.1-SNAPSHOT.jar
+  services:
+  - catalog-db
